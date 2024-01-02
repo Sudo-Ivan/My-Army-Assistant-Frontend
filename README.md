@@ -1,6 +1,3 @@
-Based on your goals and specifications, here's a `README.md` file for your army assistant app:
-
-```markdown
 # Army Assistant App
 
 Welcome to the Army Assistant App – a private and secure platform designed to assist army personnel in their learning and day-to-day activities. Our goal is to offer a comprehensive suite of tools that include studying aids, encrypted notes, flashcards, and more, all wrapped in a user-friendly and secure application.
@@ -50,6 +47,3 @@ We welcome contributions and suggestions to improve the Army Assistant App. Plea
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
-
-Remember to personalize your `README.md` with any additional information, local setup instructions, contribution guidelines, or test instructions. Once you start developing, keep track of your progress using the task list, and consider expanding the file with documentation as each feature is implemented.
