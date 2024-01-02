@@ -1,218 +1,55 @@
-<p align='center'>
-  <img src='https://user-images.githubusercontent.com/11247099/154486817-f86b8f20-5463-4122-b6e9-930622e757f2.png' alt='Vitesse - Opinionated Vite Starter Template' width='600'/>
-</p>
+Based on your goals and specifications, here's a `README.md` file for your army assistant app:
 
-<p align='center'>
-Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
-</p>
+```markdown
+# Army Assistant App
 
-<br>
+Welcome to the Army Assistant App – a private and secure platform designed to assist army personnel in their learning and day-to-day activities. Our goal is to offer a comprehensive suite of tools that include studying aids, encrypted notes, flashcards, and more, all wrapped in a user-friendly and secure application.
 
-<p align='center'>
-<a href="https://vitesse.netlify.app/">Live Demo</a>
-</p>
+## Core Features
 
-<br>
+- **Encrypted Notes**: Create and store notes securely with encryption, ensuring your data is kept private.
+- **Flashcards**: Study and memorize important information with digital flashcards that you can easily share with peers.
+- **Army News and Videos**: Stay updated with the latest army news and informational videos within the app.
+- **Pubs and Regs**: Access publications and regulations at your fingertips, searchable and easy to reference.
+- **Specialized AI Integration**: Utilize advanced AI tools for summarizing text, learning assistance, generating bullet points, and helping with award writing.
 
-> **Note**: This template is created during the early transition of Vue 3 and Vite. At this moment, if you are seeking for better Vue developer experience and more consistent maintenance, we recommend using [Nuxt 3](https://nuxt.com) instead (it also works perfectly with SPA or SSG as needed). This template still serves as a reference, but expect slower updates.
+## Technology Stack
 
-<br>
+The application is being built using:
 
-<p align='center'>
-<b>English</b> | <a href="https://github.com/antfu/vitesse/blob/main/README.zh-CN.md">简体中文</a>
-<!-- Contributors: Thanks for getting interested, however we DON'T accept new translations to the README, thanks. -->
-</p>
+- **Vue**: A progressive framework for building user interfaces.
+- **Vite**: A modern frontend build tool that significantly improves the development experience.
+- **Tauri**: A toolkit for developing lightweight and secure desktop applications with web technologies.
+- **FastAPI**: A modern, fast web framework for building APIs with Python that includes built-in support for data validation and serialization.
 
-<br>
+## Future Expansions
 
-## Features
+- **Mobile Compatibility**: Plans to extend the application for mobile use are currently in development, with the intention to support learning on-the-go.
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) - born with fastness
+## Development To-Do List
 
-- 🗂 [File based routing](./src/pages)
+- [ ] Notes – Secure note-taking feature.
+- [ ] Flashcards – Interactive and sharable flashcards for efficient learning.
+- [ ] Plugin System – Extendable architecture allows for future feature enhancements.
+- [ ] Learning System – Tailored learning assistance based on individual's progress.
+- [ ] Tools – A suite of handy tools for everyday army tasks.
+- [ ] News – Curated army news feed.
+- [ ] Videos – Educational and informational video repository.
+- [ ] Images – Collection of useful images and diagrams.
 
-- 📦 [Components auto importing](./src/components)
+## AI Features
 
-- 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
+- [ ] Permission and Sandboxing – Ensure secure operations with proper permissions and sandboxing.
+- [ ] Local or Cloud – Flexibility in AI operations on local machines or via cloud services.
+- [ ] Learning Assistance – AI to provide learning and study support personalized to the user's needs.
 
-- 📑 [Layout system](./src/layouts)
+## Contributing
 
-- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
+We welcome contributions and suggestions to improve the Army Assistant App. Please feel free to submit issues and pull requests through the project's repository.
 
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+## License
 
-- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-- 🌍 [I18n ready](./locales)
-
-- 🔎 [Component Preview](https://github.com/johnsoncodehk/vite-plugin-vue-component-preview)
-
-- 🗒 [Markdown Support](https://github.com/unplugin/unplugin-vue-markdown)
-
-- 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
-
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
-
-- 🖨 Static-site generation (SSG) via [vite-ssg](https://github.com/antfu/vite-ssg)
-
-- 🦔 Critical CSS via [critters](https://github.com/GoogleChromeLabs/critters)
-
-- 🔤 [Webfont self-hosting](https://github.com/feat-agency/vite-plugin-webfont-dl)
-
-- 🦾 TypeScript, of course
-
-- ⚙️ Unit Testing with [Vitest](https://github.com/vitest-dev/vitest), E2E Testing with [Cypress](https://cypress.io/) on [GitHub Actions](https://github.com/features/actions)
-
-- ☁️ Deploy on Netlify, zero-config
-
-<br>
-
-## Pre-packed
-
-### UI Frameworks
-
-- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
-
-### Icons
-
-- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
-- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-
-### Plugins
-
-- [Vue Router](https://github.com/vuejs/router)
-  - [`unplugin-vue-router`](https://github.com/posva/unplugin-vue-router) - file system based routing
-  - [`vite-plugin-vue-layouts`](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) - layouts for pages
-- [Pinia](https://pinia.vuejs.org) - Intuitive, type safe, light and flexible Store for Vue using the composition api
-- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
-- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
-- [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
-- [`vite-plugin-pwa`](https://github.com/antfu/vite-plugin-pwa) - PWA
-- [`unplugin-vue-markdown`](https://github.com/antfu/unplugin-vue-markdown) - Markdown as components / components in Markdown
-  - [`markdown-it-shikiji`](https://github.com/antfu/shikiji) - [Shiki](https://github.com/antfu/shikiji) for syntax highlighting
-- [Vue I18n](https://github.com/intlify/vue-i18n-next) - Internationalization
-  - [`unplugin-vue-i18n`](https://github.com/intlify/bundle-tools/tree/main/packages/unplugin-vue-i18n) - unplugin for Vue I18n
-- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
-- [`vite-ssg-sitemap`](https://github.com/jbaubree/vite-ssg-sitemap) - Sitemap generator
-- [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
-- [`vite-plugin-webfont-dl`](https://github.com/feat-agency/vite-plugin-webfont-dl) - Zero-config webfont (Google Fonts) downloader and injector to improve website's performance.
-- [`vite-plugin-vue-devtools`](https://github.com/webfansplz/vite-plugin-vue-devtools) - Designed to enhance the Vue developer experience.
-
-### Coding Style
-
-- Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
-- [ESLint](https://eslint.org/) with [@antfu/eslint-config](https://github.com/antfu/eslint-config), single quotes, no semi.
-
-### Dev tools
-
-- [TypeScript](https://www.typescriptlang.org/)
-- [Vitest](https://github.com/vitest-dev/vitest) - Unit testing powered by Vite
-- [Cypress](https://cypress.io/) - E2E testing
-- [pnpm](https://pnpm.js.org/) - fast, disk space efficient package manager
-- [`vite-ssg`](https://github.com/antfu/vite-ssg) - Static-site generation
-  - [critters](https://github.com/GoogleChromeLabs/critters) - Critical CSS
-- [Netlify](https://www.netlify.com/) - zero-config deployment
-- [VS Code Extensions](./.vscode/extensions.json)
-  - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
-  - [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
-  - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
-  - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally) - All in one i18n support
-  - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-## Variations
-
-As this template is strongly opinionated, the following provides a curated list for community-maintained variations with different preferences and feature sets. Check them out as well. PR to add yours is also welcome!
-
-###### Official
-
-- [vitesse-lite](https://github.com/antfu/vitesse-lite) - Lightweight version of Vitesse
-- [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse for Nuxt 3
-- [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse for Nuxt 2 with Bridge
-- [vitesse-webext](https://github.com/antfu/vitesse-webext) - WebExtension Vite starter template
-
-###### Community
-
-- [vitesse-ssr-template](https://github.com/frandiox/vitesse-ssr-template) by [@frandiox](https://github.com/frandiox) - Vitesse with SSR
-- [vitailse](https://github.com/zynth17/vitailse) by [@zynth17](https://github.com/zynth17) - Like Vitesse but with TailwindCSS
-- [vitesse-modernized-chrome-ext](https://github.com/xiaoluoboding/vitesse-modernized-chrome-ext) by [@xiaoluoboding](https://github.com/xiaoluoboding) - ⚡️ Modernized Chrome Extension Manifest V3 Vite Starter Template
-- [vitesse-stackter-clean-architect](https://github.com/shamscorner/vitesse-stackter-clean-architect) by [@shamscorner](https://github.com/shamscorner) - A modular clean architecture pattern in vitesse template
-- [vitesse-enterprise](https://github.com/FranciscoKloganB/vitesse-enterprise) by [@FranciscoKloganB](https://github.com/FranciscoKloganB) - Consistent coding styles regardless of team-size.
-- [vitecamp](https://github.com/nekobc1998923/vitecamp) by [@nekobc1998923](https://github.com/nekobc1998923) - Like Vitesse but without SSG/SSR/File based routing, includes Element Plus
-- [vitesse-h5](https://github.com/YunYouJun/vitesse-h5) by [@YunYouJun](https://github.com/YunYouJun) - Vitesse for Mobile
-- [bat](https://github.com/olgam4/bat) by [@olgam4](https://github.com/olgam4) - Vitesse for SolidJS
-- [vitesse-solid](https://github.com/xbmlz/vitesse-solid) by [@xbmlz](https://github.com/xbmlz) - Vitesse for SolidJS, build with [`SolidStart`](https://start.solidjs.com/), includes [UnoCSS](https://github.com/unocss/unocss) and [HopeUI](https://hope-ui.com/).
-
-## Try it now!
-
-> Vitesse requires Node >=14.18
-
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/antfu/vitesse/generate).
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-npx degit antfu/vitesse my-vitesse-app
-cd my-vitesse-app
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+This project is licensed under the MIT License - see the LICENSE file for details.
 ```
 
-## Checklist
-
-When you use this template, try follow the checklist to update your info properly
-
-- [ ] Change the author name in `LICENSE`
-- [ ] Change the title in `App.vue`
-- [ ] Change the hostname in `vite.config.ts`
-- [ ] Change the favicon in `public`
-- [ ] Remove the `.github` folder which contains the funding info
-- [ ] Clean up the READMEs and remove routes
-
-And, enjoy :)
-
-## Usage
-
-### Development
-
-Just run and visit http://localhost:3333
-
-```bash
-pnpm dev
-```
-
-### Build
-
-To build the App, run
-
-```bash
-pnpm build
-```
-
-And you will see the generated file in `dist` that ready to be served.
-
-### Deploy on Netlify
-
-Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
-
-### Docker Production Build
-
-First, build the vitesse image by opening the terminal in the project's root directory.
-
-```bash
-docker buildx build . -t vitesse:latest
-```
-
-Run the image and specify port mapping with the `-p` flag.
-
-```bash
-docker run --rm -it -p 8080:80 vitesse:latest
-```
-
-## Why
-
-I have created several Vite apps recently. Setting the configs up is kinda the bottleneck for me to make the ideas simply come true within a very short time.
-
-So I made this starter template for myself to create apps more easily, along with some good practices that I have learned from making those apps. It's strongly opinionated, but feel free to tweak it or even maintain your own forks. [(see community maintained variation forks)](#variations)
+Remember to personalize your `README.md` with any additional information, local setup instructions, contribution guidelines, or test instructions. Once you start developing, keep track of your progress using the task list, and consider expanding the file with documentation as each feature is implemented.
