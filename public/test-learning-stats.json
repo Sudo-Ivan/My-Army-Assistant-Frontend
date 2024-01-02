@@ -1,0 +1,8 @@
+{
+  "hoursStudied": 120,
+  "subjectsCovered": [
+    { "subject": "Tactics", "hours": 40 },
+    { "subject": "History", "hours": 30 },
+    { "subject": "Engineering", "hours": 50 }
+  ]
+}
